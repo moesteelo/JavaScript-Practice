@@ -99,3 +99,20 @@ console.log(ourArray);
 
 var myList = [["cereal", 3], ["Milk", 4], ['fruit', 4], ['eggs', 12]];
 console.log(myList);
+
+function ourResuableFunction() {
+    console.log("Heyya, World")
+}
+ ourResuableFunction();
+ 
+ function reusablefunction() {
+     console.log("Hey stupid!")
+ }
+ 
+ reusablefunction();
+ 
+ function ourFunctionWithArgs(a, b) {
+     console.log(a-b);
+ }
+ 
+ ourFunctionWithArgs(10,5);
